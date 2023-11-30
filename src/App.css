@@ -1,0 +1,52 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color:white; /* light gray background */
+}
+
+.app-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* white background */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* subtle box shadow */
+}
+
+.post-card {
+  border: 3px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff; /* white background */
+  border-radius: 8px; /* rounded corners */
+  transition: box-shadow 0.3s ease; /* smooth box shadow transition */
+
+}
+
+.post-card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* box shadow on hover */
+}
+
+
+h1 {
+  color: #333; /* dark gray heading color */
+}
+
+h2 {
+  color: black; /* Reddit blue heading color */
+}
+
+a {
+  color: #0077cc; /* Reddit blue link color */
+}
+
+a:hover {
+  color: #005580; /* Darker blue on hover */
+}
+
+@media (max-width: 768px) {
+  .post-card {
+    padding: 8px;
+  }
+}
